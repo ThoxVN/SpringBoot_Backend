@@ -18,7 +18,26 @@ public class Farm {
     private Integer id;
     private String name;
     private String description;
-    private String image;
     private Float temperature;
     private Float humid;
+
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setImage(String image) {
+    }
+
+    public void setTemperature(float temperature) {
+        this.temperature = temperature;
+    }
+
+    public void setHumid(float humid) {
+        this.humid = humid;
+    }
 }
